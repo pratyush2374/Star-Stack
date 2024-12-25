@@ -1,0 +1,137 @@
+/* signup.module.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #f7f7f7;
+}
+
+.signupBox {
+    display: flex;
+    max-width: 1200px;
+    width: 80%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.leftSide {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.reviewImage {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.rightSide {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 1rem;
+}
+
+.description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+.googleBtn {
+    display: flex;
+    align-items: center;
+    background-color: #ebebeb;
+    padding: 0.75rem 1.25rem;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.3s ease;
+    width: fit-content;
+}
+
+.googleBtn:hover {
+    background-color: #498fff;
+}
+
+.googleIconWrapper {
+    margin-right: 0.75rem;
+}
+
+.googleIcon {
+    width: 20px;
+    height: 20px;
+}
+
+.btnText {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .signupBox {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .leftSide {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .title {
+        margin-top: 10px;
+    }
+
+    .rightSide {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .title {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .description {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .googleBtn {
+        width: 100%;
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
