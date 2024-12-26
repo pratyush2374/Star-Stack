@@ -36,8 +36,13 @@ router.get(
 router.get("/google", passport.authenticate("google", { scope: ["email"] }));
 
 router.get("/logout", (req, res) => {
-    req.logout();
-    req.session.destroy();
-    res.redirect(process.env.CLIENT_URL);
+    req.logout((err) => {
+        if (err) {
+            return next(err);
+        }
+        req.session.destroy(() => {
+            res.redirect(`${process.env.CLIENT_URL}/`);
+        });
+    });
 });
 export default router;

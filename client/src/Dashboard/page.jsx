@@ -1,3 +1,7 @@
+import Navbar from "./dashboard-compoenents/Navbar.jsx";
+import Overview from "./dashboard-compoenents/Overview.jsx";
+import Reviews from "./dashboard-compoenents/Reviews.jsx";
+
 const Dashboard = (userDetails) => {
   const user = userDetails.user;
   const logout = () => {
@@ -5,10 +9,9 @@ const Dashboard = (userDetails) => {
   }
   return (
     <>
-      <h1>Home page</h1>
-      <input type="text" defaultValue={user.name}/>
-      <input type="text" defaultValue={user.email}/>
-      <button onClick={logout}>Log out</button>
+      <Navbar />
+      <Overview />
+      <Reviews />
     </>
   );
 }

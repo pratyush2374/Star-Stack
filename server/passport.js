@@ -14,7 +14,9 @@ passport.use(
         },
         function (request, accessToken, refreshToken, profile, done) {
             try {
+                console.log(`Google Profile:  ${profile}`);
                 return done(null, profile); 
+
             } catch (err) {
                 return done(err, null); 
             }   
@@ -23,7 +25,7 @@ passport.use(
 );
 
 passport.serializeUser(function (user, done) {
-    done(null, user); // Serialize user to session
+    done(null, user.id); // Serialize user to session
 });
 
 passport.deserializeUser(function (user, done) {
