@@ -1,6 +1,7 @@
 import { Router } from "express";
 import passport from "passport";
 
+
 const router = Router();
 
 router.get("/login/failed", (req, res) => {
@@ -15,7 +16,12 @@ router.get("/login/success", (req, res) => {
         res.status(200).json({
             error: false,
             message: "Login Success",
-            user: req.user,
+            user: {
+                googleId: req.user.googleId,
+                email: req.user.email,
+                fullName: req.user.fullName,
+                profilePic: req.user.profilePic,
+            },
         });
     } else {
         res.status(401).json({
@@ -44,5 +50,7 @@ router.get("/logout", (req, res) => {
             res.redirect(`${process.env.CLIENT_URL}/`);
         });
     });
+
+    
 });
 export default router;

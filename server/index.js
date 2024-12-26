@@ -5,6 +5,7 @@ import dotenv from "dotenv";
 import "./passport.js";
 import cors from "cors";
 import router from "./routes/auth.js";
+import userRouter from "./routes/userRoutes.js";
 
 dotenv.config();
 
@@ -20,6 +21,8 @@ app.use(
 
 app.use(passport.initialize());
 app.use(passport.session());
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 app.use(
     cors({
@@ -30,6 +33,7 @@ app.use(
 );
 
 app.use("/auth", router);
+app.use("/user", userRouter)
 
 const PORT = process.env.PORT;
 app.listen(PORT, () => {

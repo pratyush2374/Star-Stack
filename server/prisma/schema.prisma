@@ -1,0 +1,32 @@
+// This is your Prisma schema file
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model admins {
+  id        String    @id @default(auto()) @map("_id") @db.ObjectId
+  email     String    @unique
+  name      String
+  image     String? // Profile image URL from Google
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+  googleId  String    @unique
+  reviews   reviews[]
+}
+
+model reviews {
+  id            String  @id @default(auto()) @map("_id") @db.ObjectId
+  customerName  String // Name of the customer who left the review
+  customerEmail String // Email of the customer
+  rating        Int // 1-5 rating
+  content       String // Review text
+  date          String
+  response      String
+  admin         admins?  @relation(fields: [adminId], references: [id], onDelete: Cascade)
+  adminId       String?  @db.ObjectId
+}

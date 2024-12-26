@@ -1,0 +1,163 @@
+[
+    {
+      "customerName": "Aarav Sharma",
+      "customerEmail": "aarav.sharma@email.com",
+      "rating": 5,
+      "content": "Excellent service! Highly recommend.",
+      "date": "2024-12-25 10:15:00",
+      "response": ""
+    },
+    {
+      "customerName": "Priya Patel",
+      "customerEmail": "priya.patel@email.com",
+      "rating": 4,
+      "content": "Good product, but delivery was a bit slow.",
+      "date": "2024-12-24 14:30:00",
+      "response": ""
+    },
+    {
+      "customerName": "Mohit Singh",
+      "customerEmail": "mohit.singh@email.com",
+      "rating": 3,
+      "content": "Average experience. The product didn’t meet expectations.",
+      "date": "2024-12-23 16:45:00",
+      "response": ""
+    },
+    {
+      "customerName": "Sanya Mehta",
+      "customerEmail": "sanya.mehta@email.com",
+      "rating": 5,
+      "content": "Fantastic quality and quick shipping!",
+      "date": "2024-12-22 09:00:00",
+      "response": ""
+    },
+    {
+      "customerName": "Rohan Gupta",
+      "customerEmail": "rohan.gupta@email.com",
+      "rating": 4,
+      "content": "Very good, but I expected more features for the price.",
+      "date": "2024-12-21 11:20:00",
+      "response": ""
+    },
+    {
+      "customerName": "Neha Verma",
+      "customerEmail": "neha.verma@email.com",
+      "rating": 5,
+      "content": "Absolutely love it! Worth every penny.",
+      "date": "2024-12-20 08:35:00",
+      "response": ""
+    },
+    {
+      "customerName": "Vikram Desai",
+      "customerEmail": "vikram.desai@email.com",
+      "rating": 2,
+      "content": "The product was damaged upon arrival. Not happy.",
+      "date": "2024-12-19 17:10:00",
+      "response": ""
+    },
+    {
+      "customerName": "Anjali Agarwal",
+      "customerEmail": "anjali.agarwal@email.com",
+      "rating": 4,
+      "content": "Good experience, but the app interface can be improved.",
+      "date": "2024-12-18 12:25:00",
+      "response": ""
+    },
+    {
+      "customerName": "Aditya Rao",
+      "customerEmail": "aditya.rao@email.com",
+      "rating": 3,
+      "content": "Decent product, but doesn’t do all that was advertised.",
+      "date": "2024-12-17 15:40:00",
+      "response": ""
+    },
+    {
+      "customerName": "Kriti Joshi",
+      "customerEmail": "kriti.joshi@email.com",
+      "rating": 5,
+      "content": "Excellent quality and customer service.",
+      "date": "2024-12-16 13:55:00",
+      "response": ""
+    },
+    {
+      "customerName": "Shivendra Singh",
+      "customerEmail": "shivendra.singh@email.com",
+      "rating": 5,
+      "content": "Great experience! Will buy again.",
+      "date": "2024-12-15 09:30:00",
+      "response": ""
+    },
+    {
+      "customerName": "Maya Kapoor",
+      "customerEmail": "maya.kapoor@email.com",
+      "rating": 4,
+      "content": "Good product, but packaging can be improved.",
+      "date": "2024-12-14 10:50:00",
+      "response": ""
+    },
+    {
+      "customerName": "Kabir Khan",
+      "customerEmail": "kabir.khan@email.com",
+      "rating": 2,
+      "content": "The item was not as described. Disappointed.",
+      "date": "2024-12-13 18:05:00",
+      "response": ""
+    },
+    {
+      "customerName": "Sanya Yadav",
+      "customerEmail": "sanya.yadav@email.com",
+      "rating": 5,
+      "content": "Very satisfied with the purchase. Worth the money.",
+      "date": "2024-12-12 16:00:00",
+      "response": ""
+    },
+    {
+      "customerName": "Jatin Bhatia",
+      "customerEmail": "jatin.bhatia@email.com",
+      "rating": 3,
+      "content": "The product works but has some flaws.",
+      "date": "2024-12-11 11:40:00",
+      "response": ""
+    },
+    {
+      "customerName": "Isha Kapoor",
+      "customerEmail": "isha.kapoor@email.com",
+      "rating": 4,
+      "content": "Good product. Delivery was quick and on time.",
+      "date": "2024-12-10 14:25:00",
+      "response": ""
+    },
+    {
+      "customerName": "Karan Verma",
+      "customerEmail": "karan.verma@email.com",
+      "rating": 5,
+      "content": "Impressed with the product quality and speed of delivery.",
+      "date": "2024-12-09 10:00:00",
+      "response": ""
+    },
+    {
+      "customerName": "Alok Reddy",
+      "customerEmail": "alok.reddy@email.com",
+      "rating": 2,
+      "content": "Product did not match expectations, had to return it.",
+      "date": "2024-12-08 19:15:00",
+      "response": ""
+    },
+    {
+      "customerName": "Sahil Jain",
+      "customerEmail": "sahil.jain@email.com",
+      "rating": 4,
+      "content": "The product is good, but customer support was slow.",
+      "date": "2024-12-07 13:50:00",
+      "response": ""
+    },
+    {
+      "customerName": "Pooja Shah",
+      "customerEmail": "pooja.shah@email.com",
+      "rating": 5,
+      "content": "Very happy with the service and the product.",
+      "date": "2024-12-06 16:30:00",
+      "response": ""
+    }
+  ]
+  
