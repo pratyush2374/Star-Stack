@@ -1,11 +1,13 @@
 import React from "react";
 import styles from "./signup.module.css";
+import { useNavigate } from "react-router-dom";
 
 const SignUp = () => {
+    const navigate = useNavigate();
 
-  const googleLogin = () => {
-    console.log("Google login");
-  };
+    const googleLogin = () => {
+        window.open(`http://localhost:3001/auth/google/callback`, "_self");
+    };
     return (
         <div className={styles.container}>
             <div className={styles.signupBox}>
@@ -26,10 +28,7 @@ const SignUp = () => {
                         reviews effortlessly with us.
                     </p>
 
-                    <div
-                        className={styles.googleBtn}
-                        onClick={googleLogin}
-                    >
+                    <div className={styles.googleBtn} onClick={googleLogin}>
                         <div className={styles.googleIconWrapper}>
                             <img
                                 className={styles.googleIcon}
