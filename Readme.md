@@ -2,6 +2,12 @@
 
 Star Stack is a web application that enables business owners to manage their Google Business reviews efficiently. The application provides a centralized dashboard where users can log in with their Google Business account to view and respond to their business reviews.
 
+## Demo 🎥
+
+Check out the application demo: [Watch Demo Video](https://drive.google.com/file/d/1tCePL48YXjh8cFtwCB24uNz_3QBueWTl/view?usp=sharing)
+
+The demo showcases the application's key features and user interface. Watch it to get a quick overview of it
+
 ## Note on Google Business API
 Currently, the application uses dummy data for demonstration purposes as the Google Business API is not available. The structure remains in place to integrate the real API when access is granted.
 
