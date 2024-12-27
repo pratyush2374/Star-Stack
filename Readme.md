@@ -71,7 +71,7 @@ DATABASE_URL=your_database_url
    - Enable the Google Business Profile API
    - Go to "Credentials"
    - Create OAuth 2.0 credentials
-3. **DATABASE_URL**: Set up your database (PostgreSQL recommended) and use its connection URL
+3. **DATABASE_URL**: Set up your database (MongoDB's cloud cluster recommended) and use its connection URL
 4. **CLIENT_URL**: URL where your frontend is running
 5. **PORT**: Can be any available port (default: 3001)
 
